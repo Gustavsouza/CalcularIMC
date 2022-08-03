@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="tela">
+        <div id="principal">
+            <h1>Calcular IMC</h1>
+            <input type="number" name="altura" autocomplete="off" autofocus id="altura" placeholder="Insira sua altura">
+            <input type="number" name="peso" autocomplete="off" autofocus id="peso" placeholder="Insira seu peso">
+           <button onclick="calculaimc()">Clique aqui</button>
+            <div id="div2">
+                <!-- Aqui aparecerá o resultado-->
+                <p style="color:black;font-weight: 600;">Resultado</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        var altura = document.getElementById('altura').value
+        var peso =  document.getElementById('peso').value
+
+        function calculaimc(){
+           alert(peso)
+    }
+    </script>
+
+    <!-- <script>
+        (function(){
+            alert("Vishiiiiiii")
+        })()
+    </script> -->
+</body>
+</html>
